@@ -22,7 +22,7 @@
 
   body > h1 {
     text-align: center;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     font-size: 3em;
     color: #3a3a3a;
   }
@@ -34,9 +34,9 @@
   }
 
   footer {
-    position:absolute;
-    bottom: 0em;
-    left: 0em;
+    position:fixed;
+    bottom: 0;
+    left: 0;
     width:100%;
     background: #DFD29D;
   }
@@ -46,7 +46,7 @@
     font-weight: bold;
     font-size: 1.5em;
     text-decoration: none;
-    position:absolute;
+    position: fixed;
     padding-bottom: .5em;
     bottom: 2em;
     left: 1.5em;
@@ -55,7 +55,7 @@
   footer > p {
     padding-left: 1em;
     padding-right: 1em;
-    padding-bottom: 0em;
+    padding-bottom: 0;
     color: #4A4C92;
   }
 
@@ -68,11 +68,6 @@
   #disclaimer {
     bottom: .7em;
     left: 2em;
-  }
-
-  #f-link {
-    text-decoration: none;
-    color: #4A4C92;
   }
 
   ul.tools {
@@ -99,7 +94,6 @@
   }
 
   ul.tools li a {
-    padding: 2rem;
     border: 2px solid #d41243;
     display: block;
     padding: 1rem;
@@ -139,10 +133,6 @@
     font-size: 0.75rem;
   }
 
-  .full {
-    width: 100%;
-  }
-
   #logo {
     align-content: center;
   }
@@ -155,7 +145,7 @@
       <img id="logo" src="./sdsu_logo.png" alt="SDSU Logo">
     </a>
   </h1>
-  <p><i>Useful Links for San Diego State University Students, Staff and Faculty</i></p>
+  <p><span style="font-style: italic;">Useful Links for San Diego State University Students, Staff and Faculty</span></p>
   <ul class="tools">
     <li>
       <a href="https://sunspot.sdsu.edu/pls/webapp/web_menu.login/" class="red">
